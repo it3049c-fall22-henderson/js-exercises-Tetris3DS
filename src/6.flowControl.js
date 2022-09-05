@@ -7,7 +7,10 @@
  *    if no number was provided or if the value provided wasn't a number (hint: typeof), return false
  */
 function fizzBuzz(num) {
-  
+  'fizz' = num % 3 === 0
+  'buzz' = num % 5 === 0
+  'fizzbuzz' = 'fizz' && 'buzz'
+  return = !('fizz' || 'buzz')
 }
 
 module.exports = {
