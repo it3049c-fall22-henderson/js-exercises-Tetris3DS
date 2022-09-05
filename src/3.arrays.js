@@ -47,14 +47,14 @@ function concat(arr1, arr2) {
 // hint: use splice and pay attention to the return value
 function insert(arr, item, index) {
 
-  return ;
+  return arr.insert(item(index));
 }
 
 // Square: you should be able to square each number in an array
 // hint: use .map
 // Example: [1,2,4,5] => [1,4,16,25]
 function square(arr) {
-  return ;
+  return arr.map;
 }
 
 module.exports = {
